@@ -1,0 +1,25 @@
+.ex {
+  animation: fade 24s linear infinite 0s;
+}
+
+.ex:nth-child(2) {
+	background-image: url('../images/...');
+        animation-delay: 8s;
+    }
+@keyframes fade {
+        0% {
+	    opacity: 0;
+	}
+        8% {
+            opacity: 1;
+        }
+	24% {
+	    opacity: 1;
+	}
+	30% {
+	    opacity: 0;
+	}
+	100% {
+	    opacity: 0;
+	}
+    }
